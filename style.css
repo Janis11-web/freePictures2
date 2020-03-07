@@ -1,0 +1,235 @@
+html{
+    background-color: #d7d7d8;
+}
+
+
+header{
+    background-image: url(Bilder/IMG_1260.JPG);
+    width:100%;
+    height:500px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+}
+
+#uber h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #279b37;
+    text-align: center;
+    font-size: 30px;
+    transform: scale(2);
+    margin: -1;
+    position: absolute;
+    left: 400;
+    top: 230;
+    transition: 0.2s ease;
+}
+
+#uber h1:hover{
+    transform: scale(2.25);
+    cursor: context-menu;
+}
+
+
+.nav ul {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding-top: 22px;
+    padding-left: 500
+    
+}
+
+.nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+    
+    
+}
+
+.nav ul li a{
+    
+    text-decoration: none;
+    color: black;
+    padding: 6px 20px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+}
+
+.nav ul li a:hover{
+    background-color: black;
+    cursor: pointer;
+    color:#fff;
+}
+
+section{
+    width: 950px;
+    height: 1000px;
+    float: center;
+}
+
+
+.Bilder img{
+    height: 50px;
+    margin-left: 150px;
+    border: 2px solid gray;
+    transform: scale(4.5);
+    margin-top: 150px;
+    position: absolute;
+    border-style: groove;
+}
+
+
+.Bilder a{
+    
+}
+
+
+.Text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    float: right;
+    width: 400px;
+    margin-top: 60px;
+    position: absolute;
+    left: 370px;
+}
+
+.Text p{
+    font-family: 'Josefin Sans', sans-serif;
+    float:right;
+    margin-left: 0px;
+    height: 0px;
+    width: 400px;
+    text-align: justify;
+    position: absolute;
+    left: 370;
+    top: 680
+}
+
+.Bilder2 img{
+    height: 50px;
+    margin-left: 150px;
+    border: 2px solid gray;
+    transform: scale(4.5);
+    margin-top: 450px;
+    position: absolute;
+    border-style: groove;
+}
+
+.Text2 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    float: right;
+    width: 400px;
+    margin-top: 220px;
+    position: absolute;
+    left: 370px;
+    top: 730;
+}
+
+.Text2 p{
+    font-family: 'Josefin Sans', sans-serif;
+    float:right;
+    margin-left: 0px;
+    height: 0px;
+    width: 400px;
+    text-align: justify;
+    position: absolute;
+    left:370;
+    top: 1000
+}
+
+.Bilder3 img{
+    height: 50px;
+    margin-left: 150px;
+    border: 2px solid gray;
+    transform: scale(4.5);
+    margin-top: 750px;
+    position: absolute;
+    border-style: groove
+}
+
+.Text3 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    float: right;
+    width: 400px;
+    margin-top: 0px;
+    position: absolute;
+    left:370;
+    top:1250;
+}
+
+.Text3 p{
+    font-family: 'Josefin Sans', sans-serif;
+    float:right;
+    margin-left: 0px;
+    height: 0px;
+    width: 400px;
+    text-align: justify;
+    position: absolute;
+    left:370;
+    top: 1300
+}
+
+aside{
+    
+}
+
+footer{
+    width: 100%;
+    height: 45px;
+    float: bottom;
+}
+
+.nav2 ul{
+    background-color: #5f6c72;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0px;
+    margin:30px;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.35);
+    line-height: 3;
+}
+
+
+.nav2 ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav2 ul li a{
+    
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.nav2 ul li a:hover{
+    cursor: pointer;
+    color:#d7d7d8;
+}
+
+#no{
+    position: absolute;
+    top:1550px;
+    left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    transform: scale(1.35);
+}
+
+#no a{
+    text-decoration: none;
+    color:black;
+    transition: 0.3s ease;
+}
+
+
+#no a:hover{
+    color:#fff;
+}
+
+
+
+
+

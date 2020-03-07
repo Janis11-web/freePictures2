@@ -1,0 +1,112 @@
+<!DOCTYP html>
+
+<html>
+    
+    <head>
+        <title>Foto Website</title>
+        <link rel="stylesheet" href="style_da.css" type="text/css">
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header>
+                <div id="uber">
+                    <h1>Das sind wir</h1>
+                </div>
+                <div id="slider"></div>
+                
+            </header>
+            
+            <section>
+                <script>
+                    
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    // Next/previous controls
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    // Thumbnail image controls
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                            dots[slideIndex-1].className += " active";
+                        } 
+                </script>
+                
+                
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="Bilder/IMG_1017.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="Bilder/IMG_1173.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="Bilder/IMG_1230.JPG" style="width:100%">
+    </div>
+
+ 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+        <br>
+
+<!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot1" onclick="currentSlide(1)"></span>
+        <span class="dot2" onclick="currentSlide(2)"></span>
+        <span class="dot3" onclick="currentSlide(3)"></span>
+    </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Kontakt.html">Kontakt</a></li>
+                        <li><a href="Das%20sind%20wir.html">Das sind wir</a></li>
+                    </ul>
+                </div>
+                <div id="Text">
+                    <h2 id="wer">Wer:</h2>
+                    <p>Bis jetzt mache ich die Bilder alleine. Meistens wenn ich mit meinem Fahrrad rumfahre.</p>
+                    <h2 id="was">Was:</h2>
+                    <p>Die Bilder mache ich "nur" Hobb mäßig. Es macht mir sehr viel spaß die Bilder zu machen<br> und dann natürlich auch zu bearbeiten.</p>
+                    <h2 id="wie">Wie:</h2>
+                    <p>Derzeit mache ich die Bilder entweder mit meinem IPhone (IPhone XR) oder ich nehme meine<br> DJI Osmo Pocket mit. Bearbeiten tue ich die Bilder dann mit Adobe Litghroom.</p>
+                </div>
+            </section>
+            
+            <aside></aside>
+            
+            <footer>
+                <div class="nav2">
+                    <ul>
+                        <li><a href="im.html">Impressum</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">Material</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
